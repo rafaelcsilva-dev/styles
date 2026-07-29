@@ -245,7 +245,3 @@ select {
     text-align: center;
   }
 }
-
-strong {
-  color: var(--color-primary);
-}

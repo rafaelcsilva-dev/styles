@@ -10,9 +10,9 @@
   --text-muted: #4e6178;
 
   --color-primary: #00f0ff;
-  --color-primary-shadow: #00eeff34;
+  --color-primary-shadow: #00eeff69;
   --color-secondary: #ff007f;
-  --color-secondary-shadow: #ff007f34;
+  --color-secondary-shadow: #ff008069;
 
   /* Tipografia */
   --text-small: 0.75rem;
@@ -100,6 +100,19 @@ html[data-theme="virus"] {
   padding: 0;
   box-sizing: border-box;
   transition: all 0.3s;
+}
+
+button {
+  display: flex;
+
+  background: none;
+  border: none;
+}
+
+input {
+  background: none;
+  border: none;
+  outline: none;
 }
 
 body {
@@ -194,7 +207,7 @@ hr {
 }
 
 strong {
-  color: var(--text-secondary);
+  color: var(--color-secondary);
   font-weight: bolder;
 }
 
@@ -233,6 +246,10 @@ select {
 
   &:focus {
     outline: none;
+  }
+
+  &:hover {
+    text-shadow: 0px 0px 12px var(--color-primary);
   }
 
   & option {

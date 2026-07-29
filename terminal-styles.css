@@ -155,7 +155,10 @@ nav {
 
     &:hover {
       background: none;
-      text-shadow: 0px 0px 12px var(--color-primary);
+      box-shadow: none;
+
+      color: var(--color-primary);
+      text-shadow: 0px 0px 8px var(--color-primary);
     }
   }
 }
@@ -170,11 +173,8 @@ h1 {
 }
 
 h2 {
-  margin-top: var(--s6);
-  margin-bottom: var(--s2);
-  padding-top: var(--s4);
-
-  border-top: 1px dashed var(--bg-hover);
+  margin-top: var(--s3);
+  margin-bottom: var(--s1);
 
   color: var(--color-primary);
   font-size: var(--text-h2);
@@ -187,6 +187,11 @@ p {
 
   color: var(--text-secondary);
   text-align: justify;
+}
+
+hr {
+  margin: var(--s4) 0;
+  border: 1px dashed var(--color-secondary);
 }
 
 strong {
@@ -213,4 +218,35 @@ a {
     background-color: var(--color-primary);
     box-shadow: 0 0 10px var(--color-primary);
   }
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-color: var(--bg-main);
+  border: none;
+  color: var(--color-primary);
+  font-family: var(--font);
+  font-size: inherit;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  & option {
+    min-height: 1.8em;
+    padding: var(--s1);
+
+    background-color: var(--bg-main);
+
+    color: var(--color-primary);
+    text-align: center;
+  }
+}
+
+strong {
+  color: var(--color-primary);
 }

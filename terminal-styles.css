@@ -190,7 +190,7 @@ p {
 
 hr {
   margin: var(--s4) 0;
-  border: 1px dashed var(--color-secondary);
+  border: 1px dashed var(--color-secondary-shadow);
 }
 
 strong {

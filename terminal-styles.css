@@ -166,10 +166,9 @@ nav {
 h1 {
   margin-bottom: var(--s1);
 
-  color: var(--text-primary);
+  color: var(--color-primary);
   text-shadow: 0px 0px 12px var(--color-primary-shadow);
   font-size: var(--text-display);
-  line-height: 1.2;
 }
 
 h2 {

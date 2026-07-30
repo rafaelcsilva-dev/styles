@@ -141,7 +141,7 @@ body::before {
   background:
     linear-gradient(#12101000 50%, #00000066 50%),
     linear-gradient(90deg, #ff005508, #00f0ff05, #0000ff08);
-  z-index: 9999;
+  z-index: 9990;
   background-size:
     100% 4px,
     6px 100%;

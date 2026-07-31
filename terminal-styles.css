@@ -265,9 +265,3 @@ select {
     text-align: center;
   }
 }
-
-@media (max-width: 760px) {
-  h1 {
-    font-size: ;
-  }
-}

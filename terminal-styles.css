@@ -94,6 +94,18 @@ html[data-theme="virus"] {
   --color-secondary-shadow: #99002469;
 }
 
+html[data-theme="amethyst"] {
+  --bg-main: #030105;
+  --bg-container: #0d0614;
+  --bg-cards: #180a26;
+  --bg-hover: #2e1247;
+
+  --color-primary: #8b5cf6;
+  --color-primary-shadow: #8b5cf620;
+  --color-secondary: #6d28d9;
+  --color-secondary-shadow: #6d28d915;
+}
+
 /* Base Reset & Transições */
 * {
   margin: 0;
